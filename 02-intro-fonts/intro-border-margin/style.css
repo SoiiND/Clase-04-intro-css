@@ -1,0 +1,25 @@
+body {
+    background-color: turquoise;
+    margin: 0;
+}
+
+div {
+    background-color: red;
+    /* arriba, derecha, abajo, izquierda */
+    margin: 4%;
+    padding: 5%;
+    /* border radius si lo ponemos en pixeles !!! */
+    border-radius: 10px;
+}
+
+div p {
+    color: rebeccapurple;
+}
+
+p {
+    color: orange;
+}
+
+.normal {
+    color: peru;
+}

@@ -1,0 +1,56 @@
+/* astersico nos sirve para hacer los reset de lvl mas bajo */
+/* es el elemento de especificdad mas bajo (0, 0, 0) */
+* {
+    background-color: rgb(0, 0, 0);
+}
+
+/* estilando usando la etiqueta , las etiqueta no llevan punto*/
+/* las etiquetas tienen mas especificdad (0, 0, 1) */
+h1 {
+    color: rgba(255, 0, 0, 0.74);
+    font-size: 75px;
+    background-color: gold;
+
+}
+
+/* Poniendo estio a etiqueta que se repite varia veces */
+
+div {
+background-color: gray;
+margin-top: 5px;
+}
+
+/* los class son los siguientes especificidad ! vlaen 10 mas que las
+etiquetas !! */
+.Diferente {
+    background-color: green;
+}
+
+/* los id son los siguientes especificidad ! valen 100 mas que las
+etiquetas !! */
+
+#textoLorem {
+    color: white;
+
+}
+
+p.textoLorem {
+    color: yellow;
+}
+
+p.textoLorem.texto2{
+    color: blue;
+}
+
+/* podemos conbinar las etiquetas , suma las especificades mas bajas  (0, 0, 2) */
+
+ul li {
+list-style-type: katakana;
+color:rgb(221, 8, 8);
+}
+
+#textoLorem span {
+    color: cyan;
+    background-color: rgb(184, 80, 80);
+    cursor: pointer;
+}
